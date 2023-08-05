@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "encodeHooks": ["./packages/hooks/src/index.ts"],
+      "encode-hooks": ["./packages/hooks/src/index.ts"],
+      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
+      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "importHelpers": true
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+}
