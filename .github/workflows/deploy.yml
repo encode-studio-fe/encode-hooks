@@ -6,8 +6,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - name: Checkout  ️
+      - name: Checkout
         uses: actions/checkout@v2.3.1
 
       - name: Lock npm version
