@@ -27,6 +27,8 @@ $ yarn add encode-hooks
 
 ## 🔨 使用
 
+参考 `Hooks`内容，使用如下：
+
 ```ts
 import { useToggle } from 'encode-hooks';
 ```
