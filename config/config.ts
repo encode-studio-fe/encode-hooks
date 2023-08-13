@@ -6,7 +6,7 @@ export default {
     type: 'none',
     exclude: [],
   },
-  outputPath: './encode-hooks',
+  publicPath: '/encode-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
