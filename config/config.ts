@@ -19,7 +19,7 @@ export default {
     ],
   ],
   mode: 'site',
-  title: '',
+  title: ' ',
   favicon: '/encode-hooks/avatar.png',
   logo: '/encode-hooks/logo.png',
   dynamicImport: {},
