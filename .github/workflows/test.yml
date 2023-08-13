@@ -18,10 +18,9 @@ jobs:
         with:
           node-version: 16.18.0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 8
+     - name: Install pnpm
+        run: |
+            npm i -g pnpm
 
       - name: pnpm run install, build
         run: |
