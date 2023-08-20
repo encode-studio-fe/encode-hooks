@@ -5,7 +5,7 @@ nav:
 
 # useCookieState
 
-一个可以将状态存储在 Cookie 中的 Hook 。
+一个将状态存储在 Cookie 中的 Hook 。
 
 ## 代码演示
 
