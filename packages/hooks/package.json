@@ -1,6 +1,6 @@
 {
   "name": "encode-hooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "印客学院 React 业务 Hooks",
   "keywords": [
     "encode",
@@ -10,7 +10,7 @@
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
-  "unpkg": "dist/encodeHooks.js",
+  "unpkg": "dist/encode-hooks.js",
   "sideEffects": false,
   "authors": "chenghuai",
   "publishConfig": {

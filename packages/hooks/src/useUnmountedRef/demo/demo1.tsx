@@ -3,7 +3,7 @@
  * desc: unmountedRef.current 代表组件是否已经卸载
  */
 
-import { useBoolean, useUnmountedRef } from 'encodeHooks';
+import { useBoolean, useUnmountedRef } from 'encode-hooks';
 import { message } from 'antd';
 import React, { useEffect } from 'react';
 

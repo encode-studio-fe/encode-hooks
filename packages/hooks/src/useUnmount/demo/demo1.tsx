@@ -3,7 +3,7 @@
  * desc: 在组件卸载时，执行函数。
  */
 
-import { useBoolean, useUnmount } from 'encodeHooks';
+import { useBoolean, useUnmount } from 'encode-hooks';
 import { message } from 'antd';
 import React from 'react';
 

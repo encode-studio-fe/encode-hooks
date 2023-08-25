@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useBoolean } from 'encodeHooks';
+import { useBoolean } from 'encode-hooks';
 
 export default () => {
   const [state, { toggle, setTrue, setFalse }] = useBoolean(true);

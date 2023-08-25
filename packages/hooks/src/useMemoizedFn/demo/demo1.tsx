@@ -5,7 +5,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { message } from 'antd';
-import { useMemoizedFn } from 'encodeHooks';
+import { useMemoizedFn } from 'encode-hooks';
 
 export default () => {
   const [count, setCount] = useState(0);

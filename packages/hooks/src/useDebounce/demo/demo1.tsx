@@ -4,7 +4,7 @@
  */
 
 import React, { useState } from 'react';
-import { useDebounce } from 'encodeHooks';
+import { useDebounce } from 'encode-hooks';
 
 export default () => {
   const [value, setValue] = useState<string>();

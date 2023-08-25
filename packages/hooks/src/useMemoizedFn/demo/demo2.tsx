@@ -3,7 +3,7 @@
  * desc: 示例中 `memoizedFn` 是不会变化的，`callbackFn` 在 count 变化时变化。
  */
 
-import { useMemoizedFn } from 'encodeHooks';
+import { useMemoizedFn } from 'encode-hooks';
 import { message } from 'antd';
 import React, { useCallback, useRef, useState } from 'react';
 

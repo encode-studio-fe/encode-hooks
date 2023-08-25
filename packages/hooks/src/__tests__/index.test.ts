@@ -1,9 +1,9 @@
-import * as encodeHooks from '..';
+import * as hooks from '..';
 
-describe('encodeHooks', () => {
+describe('encode-hooks', () => {
   test('exports modules should be defined', () => {
-    Object.keys(encodeHooks).forEach((module) => {
-      expect(encodeHooks[module]).toBeDefined();
+    Object.keys(hooks).forEach((module) => {
+      expect(hooks[module]).toBeDefined();
     });
   });
 });

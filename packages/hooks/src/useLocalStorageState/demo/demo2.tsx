@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { useLocalStorageState } from 'encodeHooks';
+import { useLocalStorageState } from 'encode-hooks';
 
 const defaultArray = ['a', 'e', 'i', 'o', 'u'];
 
