@@ -11,27 +11,27 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### 自定义 DOM
 
-<code src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
 
 ### 支持多个 DOM 对象
 
-<code src="./demo/demo3.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo3.tsx" />
 
 ### 监听其它事件
 
-<code src="./demo/demo4.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo4.tsx" />
 
 ### 支持多个事件
 
-<code src="./demo/demo5.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo5.tsx" />
 
 ### 支持 shadow DOM
 
-<code src="./demo/demo6.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo6.tsx" />
 
 ## API
 

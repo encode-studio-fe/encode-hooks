@@ -11,15 +11,15 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### 页面全屏
 
-<code src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
 
 ### 与其它全屏操作共存
 
-<code src="./demo/demo3.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo3.tsx" />
 
 ## API
 

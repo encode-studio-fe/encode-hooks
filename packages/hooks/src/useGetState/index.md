@@ -11,7 +11,7 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ## 类型定义
 
@@ -19,12 +19,18 @@ nav:
 import { Dispatch, SetStateAction } from 'react';
 type GetStateAction<S> = () => S;
 
-function useGetState<S>(initialState: S | (() => S)): [S, Dispatch<SetStateAction<S>>, GetStateAction<S>];
-function useGetState<S = undefined>(): [S | undefined, Dispatch<SetStateAction<S | undefined>>, GetStateAction<S | undefined>];
+function useGetState<S>(
+  initialState: S | (() => S),
+): [S, Dispatch<SetStateAction<S>>, GetStateAction<S>];
+function useGetState<S = undefined>(): [
+  S | undefined,
+  Dispatch<SetStateAction<S | undefined>>,
+  GetStateAction<S | undefined>,
+];
 ```
 
 ## API
 
 ```typescript
-const [state, setState, getState] = useGetState<S>(initialState)
+const [state, setState, getState] = useGetState<S>(initialState);
 ```

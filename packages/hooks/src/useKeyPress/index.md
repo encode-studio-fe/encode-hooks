@@ -11,31 +11,31 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### 监听组合按键
 
-<code src="./demo/demo6.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo6.tsx" />
 
 ### 精确匹配
 
-<code src="./demo/demo7.tsx">
+<code hideActions='["CSB"]' src="./demo/demo7.tsx">
 
 ### 监听多个按键
 
-<code src="./demo/demo3.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo3.tsx" />
 
 ### 获取触发的按键
 
-<code src="./demo/demo8.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo8.tsx" />
 
 ### 自定义监听方式
 
-<code src="./demo/demo4.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo4.tsx" />
 
 ### 自定义 DOM
 
-<code src="./demo/demo5.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo5.tsx" />
 
 ## API
 

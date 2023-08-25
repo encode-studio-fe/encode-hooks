@@ -11,11 +11,11 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### 自定义 shouldUpdate 函数
 
-<code src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
 
 ## API
 

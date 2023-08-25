@@ -11,15 +11,15 @@ nav:
 
 ### 基础用法
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### 监测整页的滚动
 
-<code src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
 
 ### 控制滚动状态的监听
 
-<code src="./demo/demo3.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo3.tsx" />
 
 ## API
 

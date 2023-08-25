@@ -9,19 +9,12 @@ nav:
 
 ## 代码演示
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ## API
 
 ```typescript
-const [
-  set,
-  {
-    add,
-    remove,
-    reset
-  }
-] = useSet<K>(initialValue);
+const [set, { add, remove, reset }] = useSet<K>(initialValue);
 ```
 
 ### Result

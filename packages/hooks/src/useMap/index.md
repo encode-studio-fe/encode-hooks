@@ -9,21 +9,12 @@ nav:
 
 ## 代码演示
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ## API
 
 ```typescript
-const [
-  map,
-  {
-    set,
-    setAll,
-    remove,
-    reset,
-    get
-  }
-] = useMap<K, V>(initialValue);
+const [map, { set, setAll, remove, reset, get }] = useMap<K, V>(initialValue);
 ```
 
 ### Result

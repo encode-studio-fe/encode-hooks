@@ -11,7 +11,7 @@ nav:
 
 ### 在组件中获取响应式信息
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ## API
 

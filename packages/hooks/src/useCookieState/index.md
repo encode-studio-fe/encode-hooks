@@ -11,15 +11,15 @@ nav:
 
 ### 将 state 存储在 Cookie 中
 
-<code src="./demo/demo1.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo1.tsx" />
 
 ### setState 可以接收函数
 
-<code src="./demo/demo2.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo2.tsx" />
 
 ### 使用 option 配置 Cookie
 
-<code src="./demo/demo3.tsx" />
+<code hideActions='["CSB"]' src="./demo/demo3.tsx" />
 
 ## API
 
