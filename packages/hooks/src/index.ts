@@ -2,6 +2,7 @@ import { createUpdateEffect } from './createUpdateEffect';
 import useBoolean from './useBoolean';
 import useClickAway from './useClickAway';
 import useCookieState from './useCookieState';
+import useCreation from './useCreation';
 import useDebounce from './useDebounce';
 import useDebounceFn from './useDebounceFn';
 import useDocumentVisibility from './useDocumentVisibility';
@@ -24,6 +25,7 @@ import useMouse from './useMouse';
 import useMount from './useMount';
 import usePrevious from './usePrevious';
 import useRafState from './useRafState';
+import useRequest, { clearCache } from './useRequest';
 import useResetState from './useResetState';
 import { configResponsive, useResponsive } from './useResponsive';
 import useSafeState from './useSafeState';
@@ -38,14 +40,17 @@ import useTitle from './useTitle';
 import useToggle from './useToggle';
 import useUnmount from './useUnmount';
 import useUnmountedRef from './useUnmountedRef';
+import useUpdate from './useUpdate';
 import useUpdateEffect from './useUpdateEffect';
 
 export {
+  clearCache,
   createUpdateEffect,
   configResponsive,
   useBoolean,
   useClickAway,
   useCookieState,
+  useCreation,
   useDebounce,
   useDebounceFn,
   useDocumentVisibility,
@@ -68,6 +73,7 @@ export {
   useMutationObserver,
   usePrevious,
   useRafState,
+  useRequest,
   useResetState,
   useResponsive,
   useSafeState,
@@ -82,5 +88,6 @@ export {
   useToggle,
   useUnmount,
   useUnmountedRef,
+  useUpdate,
   useUpdateEffect,
 };
