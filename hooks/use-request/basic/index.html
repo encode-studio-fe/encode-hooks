@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/encode-hooks/avatar.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@alifd/theme-design-pro@0.6.2/dist/next-noreset.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script>
+      window.routerBase = "/";
+    </script>
+    <script>
+      //! umi version: 3.5.41
+    </script>
+    <script>
+      !(function () {
+        var e =
+            navigator.cookieEnabled && void 0 !== window.localStorage
+              ? localStorage.getItem("dumi:prefers-color")
+              : "auto",
+          o = window.matchMedia("(prefers-color-scheme: dark)").matches,
+          t = ["light", "dark", "auto"];
+        document.documentElement.setAttribute(
+          "data-prefers-color",
+          e === t[2] ? (o ? t[1] : t[0]) : t.indexOf(e) > -1 ? e : t[0]
+        );
+      })();
+    </script>
+    <title>基础用法 - 印客学院 encode hooks</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="/encode-hooks/umi.26146116.js"></script>
+  </body>
+</html>
