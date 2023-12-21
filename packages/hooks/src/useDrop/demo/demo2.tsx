@@ -20,7 +20,7 @@ export default () => {
 
   useDrag('', dragRef, {
     dragImage: {
-      image: '/encode-hooks/logo.svg',
+      image: '/encode-hooks/logo.png',
     },
   });
 
